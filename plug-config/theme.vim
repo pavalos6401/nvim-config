@@ -1,5 +1,6 @@
 "
 " ~/.config/nvim/plug-config/theme.vim
+" ~/.vim/plug-config/theme.vim
 "
 
 if exists('+termguicolors')
@@ -9,3 +10,8 @@ if exists('+termguicolors')
 endif
 colorscheme nord
 set background=dark
+
+set laststatus=2
+let g:lightline = {
+			\ 'colorscheme': 'nord',
+			\ }

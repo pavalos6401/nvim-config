@@ -1,5 +1,6 @@
 "
 " ~/.config/nvim/plug-config/nerdcommenter.vim
+" ~/.vim/plug-config/nerdcommenter.vim
 "
 
 filetype plugin on

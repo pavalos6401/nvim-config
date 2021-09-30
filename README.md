@@ -14,18 +14,36 @@ or editing small LaTeX files).
 
 ## Requirements
 
-Package: `neovim`
+### General
+
+Package: `neovim` or `vim`
+
+- Plugins manager (auto installs): [vim-plug](https://github.com/junegunn/vim-plug)
+
+### Neovim
 
 - Python client: `python-pynvim`
 - Ruby bindings: `ruby-neovim` (AUR)
 - Nodejs client: `nodejs-neovim` (AUR)
 - Clipboard: `xsel`/`xclip`
-- Plugins manager (auto installs): [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Installation
 
+### Neovim
+
 1. Install the required packages.
-2. Copy, or symlink, the files in `dotfiles/config/nvim/` to `~/.config/nvim/`
-3. Open `nvim`, if `vim-plug` was not installed, it will auto-install.
-4. There will be a few errors, about the plugins not being installed, but after pressing enter, they will auto-install.
-5. Exit `nvim`, and open it again.
+2. Copy or symlink all files in this repo to `~/.config/nvim/`.
+3. Open `nvim`. If `vim-plug` was not installed, it will auto-install.
+4. There will be a few errors, about the plugins not being installed, but after
+pressing enter, they will auto-install.
+5. Exit `nvim`, and open it again, all plugins should now be set up properly.
+
+### Vim
+
+1. Install the required packages.
+2. Copy or symlink the files in this repo to `~/.vim/` (except `init.vim`).
+3. Copy or symlink `init.vim` to `~/.vimrc`.
+4. Open `vim`, if `vim-plug` was not installed, it will auto-install.
+5. There will be a few errors, about the plugins not being installed, but after
+pressing enter, they will auto-install.
+6. Exit `vim`, and open it again.
