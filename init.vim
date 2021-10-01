@@ -1,5 +1,6 @@
 "
 " ~/.config/nvim/init.vim
+" ~/.vimrc
 "
 
 if has('nvim')

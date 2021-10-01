@@ -1,5 +1,6 @@
 "
 " ~/.config/nvim/general/settings.vim
+" ~/.vim/general/settings.vim
 "
 
 " Display
@@ -22,3 +23,6 @@ set shiftround
 set expandtab
 set autoindent
 set smartindent
+
+" Clipboard
+set clipboard=unnamed

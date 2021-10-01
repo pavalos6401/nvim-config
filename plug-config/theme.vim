@@ -9,7 +9,6 @@ if exists('+termguicolors')
 	set termguicolors
 endif
 colorscheme nord
-set background=dark
 
 set laststatus=2
 let g:lightline = {
