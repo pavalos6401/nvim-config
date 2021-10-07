@@ -7,6 +7,7 @@
 set number
 set nowrap
 set colorcolumn=80
+set showcmd
 
 " Syntax
 syntax on
