@@ -30,9 +30,11 @@ call plug#begin()
 Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdcommenter'
+Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'lervag/vimtex'
 Plug 'vim-syntastic/syntastic'
+Plug 'junegunn/vim-easy-align'
 if has('nvim') || has('patch-8.0.902')
 	Plug 'mhinz/vim-signify'
 else
