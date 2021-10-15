@@ -30,7 +30,8 @@ call plug#begin()
 Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdcommenter'
-Plug 'preservim/nerdtree'
+Plug 'preservim/nerdtree' |
+			\ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'sheerun/vim-polyglot'
 Plug 'lervag/vimtex'
 Plug 'vim-syntastic/syntastic'
