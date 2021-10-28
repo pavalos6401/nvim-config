@@ -5,6 +5,12 @@ set hidden
 set nobackup
 set nowritebackup
 
+" Extensions
+let g:coc_global_extensions = [
+            \ 'coc-python',
+            \ 'coc-java',
+            \ 'coc-pyright']
+
 " Give more space for displaying messages.
 set cmdheight=2
 
