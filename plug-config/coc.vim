@@ -9,7 +9,8 @@ set nowritebackup
 let g:coc_global_extensions = [
             \ 'coc-python',
             \ 'coc-java',
-            \ 'coc-pyright']
+            \ 'coc-pyright',
+            \ 'coc-json']
 
 " Give more space for displaying messages.
 set cmdheight=2
