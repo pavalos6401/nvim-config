@@ -7,7 +7,6 @@ set nowritebackup
 
 " Extensions
 let g:coc_global_extensions = [
-            \ 'coc-python',
             \ 'coc-java',
             \ 'coc-pyright',
             \ 'coc-vimtex',
