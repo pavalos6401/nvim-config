@@ -36,6 +36,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'lervag/vimtex'
 Plug 'junegunn/vim-easy-align'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'honza/vim-snippets'
 if has('nvim') || has('patch-8.0.902')
 	Plug 'mhinz/vim-signify'
 else
