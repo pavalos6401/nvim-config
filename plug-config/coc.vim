@@ -11,6 +11,7 @@ let g:coc_global_extensions = [
             \ 'coc-pyright',
             \ 'coc-vimtex',
             \ 'coc-snippets',
+            \ 'coc-tsserver',
             \ 'coc-json']
 
 " Give more space for displaying messages.
